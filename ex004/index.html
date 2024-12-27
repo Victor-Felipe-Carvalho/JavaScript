@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados</title>
+</head>
+<body>
+    <h1>Selecionando elementos</h1>
+    <p>Selecionando por MARCA</p>
+    <p>Select by TAG</p>
+    <div id="teste">Clique em mim</div>
+    <script>
+        var paragrafo = window.document.getElementsByTagName('p')[0]
+        var d = window.document.getElementById('teste')
+        d.style.background = 'green'
+        d.innerText('Estou aguardando')
+</script>
+</body>
+</html>
